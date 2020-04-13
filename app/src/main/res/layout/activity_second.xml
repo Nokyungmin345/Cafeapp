@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -34,57 +35,11 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="10dp"
-                    android:text="테이블 예약하기"
+                    android:text=""
                     android:textColor="#FFFFFFFF"
                     android:textSize="25dp" />
 
             </LinearLayout>
-
-            <EditText
-                android:id="@+id/idText"
-                android:layout_width="280dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="50dp"
-                android:background="@color/colorPrimary"
-                android:drawableStart="@drawable/ic_perm_identity_black_24dp"
-                android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
-                android:hint="아이디"
-                android:padding="10dp"
-                android:textColor="#ffffff"
-                android:textColorHint="#ffffff" />
-
-            <EditText
-                android:id="@+id/passwordText"
-                android:layout_width="280dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:background="@color/colorPrimary"
-                android:drawableStart="@drawable/ic_lock_outline_black_24dp"
-                android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
-                android:hint="비밀번호"
-                android:inputType="textPassword"
-                android:padding="10dp"
-                android:textColor="#ffffff"
-                android:textColorHint="#ffffff" />
-
-            <EditText
-
-                android:id="@+id/tableidText"
-                android:layout_width="280dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:background="@color/colorPrimary"
-                android:drawableStart="@drawable/ic_perm_identity_black_24dp"
-                android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
-                android:hint="테이블ID"
-                android:padding="10dp"
-                android:textColor="#ffffff"
-                android:textColorHint="#ffffff" />
-
-
 
 
             <Button
@@ -93,8 +48,19 @@
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:textColor="#ffffff"
-                android:background="@color/colorPrimaryDark"
-                android:text="예약하기"
+                android:background="@color/colorPrimary"
+                android:text="테이크아웃"
+                android:layout_marginTop="80dp"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimary"
+                android:text="매장이용"
                 android:layout_marginTop="30dp"
                 android:layout_gravity="center"/>
 
@@ -103,5 +69,6 @@
 
         </LinearLayout>
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
