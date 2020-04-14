@@ -27,7 +27,7 @@
                     android:layout_height="84dp"
                     android:layout_gravity="center"
                     android:layout_margin="20dp"
-                    android:src="@drawable/ic_launcher"></ImageView>
+                    android:src="@drawable/cafe"></ImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
